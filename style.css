@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 402px;
+}
+
+.output{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 400px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.clear_delete {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.clear,
+.delete {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 196.5px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.numbers_oprators{
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+p {
+    display: flex;
+    width: 94.75px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
