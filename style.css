@@ -1,18 +1,22 @@
 body {
     display: flex;
     flex-direction: column;
-    max-width: 402px;
+    justify-content: center;
+    max-width: 25vh;
+    margin: auto;
 }
 
 .output{
+    box-sizing: border-box;
     border: 1px solid black;
     border-radius: 5px;
-    width: 400px;
     height: 100px;
     margin-top: 20px;
+    
 }
 
 .clear_delete {
+    box-sizing: border-box;
     display: flex;
     gap: 5px;
     margin-top: 10px;
@@ -20,16 +24,18 @@ body {
 
 .clear,
 .delete {
+    display: flex;
+    flex: 1 0 40%;
+    height: 50px;
     border: 1px solid black;
     border-radius: 5px;
-    width: 196.5px;
-    height: 50px;
-    margin-top: 5px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
 }
 
 .numbers_oprators{
     display: flex;
-    align-items: center;
     flex-wrap:wrap;
     gap: 5px;
     margin-top: 10px;
@@ -37,7 +43,7 @@ body {
 
 button {
     display: flex;
-    width: 94.75px;
+    flex: 1 0 20%;
     height: 50px;
     border: 1px solid black;
     border-radius: 5px;
