@@ -1,9 +1,23 @@
 body {
+    margin-top: 25vh;
+}
+
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     max-width: 25vh;
     margin: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+p {
+    margin: 0px;
+    font-size: 20px;
+    color: white;
 }
 
 .output{
@@ -11,8 +25,17 @@ body {
     border: 1px solid black;
     border-radius: 5px;
     height: 100px;
-    margin-top: 20px;
-    
+    background-color: white;
+}
+
+.entry1,
+.entry2 {
+    display: flex;
+    height: 50%;
+    flex: 1 0 100%;
+    justify-content: right;
+    align-items: center;
+    color: black;
 }
 
 .clear_delete {
@@ -34,6 +57,14 @@ body {
     align-items: center;
 }
 
+.clear{
+    background-color: #C8A2C8;
+}
+
+.delete{
+    background-color: #DCAE96;
+}
+
 .numbers_oprators{
     display: flex;
     flex-wrap:wrap;
@@ -50,4 +81,10 @@ button {
     margin: 0px;
     justify-content: center;
     align-items: center;
+    background-color: #e6e6fb;
 }
+
+.division,.mul,.sub,.add {
+    background-color: #FDFD96;
+}
+
