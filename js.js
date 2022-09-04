@@ -115,7 +115,8 @@ buttons.forEach(btn => btn.addEventListener('click', event => {
             result = operations(operation, num1, num2);
             display1_entry.textContent = result;
             display2_entry.textContent = '';
-            num_arr1 = result.split('');
+            console.log(result)
+            num_arr1 = display1_entry.textContent.split('');
             num_arr2 = [];
             break;
         }}));
